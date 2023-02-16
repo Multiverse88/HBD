@@ -23,11 +23,33 @@
 		"@type": "Organization",
 		"name": ""
 }</script>
+<script>
+  function alertsomething(){
+
+  alert("Menurut aku lagu ini cocok buat kamu, jadi jangan lupa di play yaa");
+
+}
+
+//function works when button clicks 
+$("#btd").click(function(){
+  alertsomething();
+
+})
+
+//function automatically when page loads
+$(document).ready(function(){
+  alertsomething();
+})
+
+</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="My Hope">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body class="u-body u-overlap u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-9d5b"><div class="u-clearfix u-sheet u-sheet-1">
+  <body class="u-body u-overlap u-xl-mode" data-lang="en">
+	  <iframe src="music/Komang - Raim Laode ( Official Lirik ).mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
+	  <header class="u-clearfix u-header u-header" id="sec-9d5b"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-align-left u-text u-text-default u-text-1">Happy Birthday Princess !!<span style="font-size: 1.125rem;"></span>
         </p>
         <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
